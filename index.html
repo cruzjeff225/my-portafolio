@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="script.js" type="text/javascript" defer></script>
+    <link href="styles/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <body background="img/fondo.jpg"></body>
+    <form action= "" onsubmit="searchPokemon(event)">
+        <input type="text" name= "pokemon" autocomplete="off">
+    </form>
+    <!-- Contenido de la carta--> 
+    <div data-pokemon-card class="pokemon-card">
+        <div data-pokemon-name>Pokemon Gallery</div>
+    <div data-pokemon-img-container class="img-container">
+        <img data-pokemon-img class="pokemon-img" src="img/NotResult.png">
+    </div>
+    <div data-pokemon-id></div>
+    <div data-pokemon-types class="pokemon-types"></div>
+    <div data-pokemon-stats class="pokemon-stats"></div>
+    </div>
+</body>
+</html>
